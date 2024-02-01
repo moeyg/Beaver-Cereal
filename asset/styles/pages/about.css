@@ -1,0 +1,83 @@
+.about {
+  background-image: url('/asset/images/backgrounds/background-yellow-check.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-main .website-intro {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-main .website-intro .website-info {
+  font-size: 1.4rem;
+  font-family: 'AppleSDGothicNeoR';
+  font-weight: 800;
+  word-break: break-all;
+}
+
+.beaver {
+  width: 20rem;
+}
+
+.we-love-cereals {
+  width: 35rem;
+}
+
+@media (max-width: 1190px) {
+  .beaver {
+    width: 18rem;
+  }
+  .we-love-cereals {
+    width: 32rem;
+  }
+}
+
+@media (max-width: 1090px) {
+  .beaver {
+    width: 17rem;
+  }
+  .we-love-cereals {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-main {
+    flex-direction: column;
+  }
+  .beaver {
+    width: 15rem;
+  }
+  .we-love-cereals {
+    width: 26rem;
+  }
+  .website-info {
+    width: 500px;
+  }
+}
+
+@media (max-width: 580px) {
+  .beaver {
+    width: 13rem;
+  }
+  .we-love-cereals {
+    width: 23rem;
+  }
+  .website-info {
+    font-size: 0.4rem;
+    width: 310px;
+  }
+}

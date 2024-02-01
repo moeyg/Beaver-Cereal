@@ -10,6 +10,7 @@
 
 /* pages */
 @import url('./pages/shop.css');
+@import url('./pages/about.css');
 
 body {
   font-family: 'impact';
