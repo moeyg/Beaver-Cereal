@@ -1,0 +1,112 @@
+.shop {
+  margin-top: 7.5rem;
+}
+
+.shop .product-menu {
+  color: white !important;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 0.5px #000;
+}
+
+.shop .product-menu:hover,
+.shop .product-menu:focus,
+.selected-menu {
+  color: var(--beige) !important;
+  fill: rgba(74, 152, 101, 0.9);
+  filter: drop-shadow(0px 0px 10px rgba(74, 152, 101, 0.8));
+}
+
+@media (max-width: 575px) {
+  .shop nav {
+    gap: 2.5rem !important;
+  }
+  .shop .product-menu {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .shop nav {
+    gap: 1rem !important;
+  }
+  .shop .product-menu {
+    font-size: 1.7rem;
+  }
+}
+
+/* Product: Cereal pack */
+
+.beaver-cereal-products .cereal-pack-product {
+  margin-top: 2.5rem;
+  width: 15rem;
+}
+
+.beaver-cereal-products .product-description .flavor {
+  margin-top: 5px;
+  color: var(--dark-grey);
+  font-size: 2rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.beaver-cereal-products .product-description .price {
+  color: white;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 0.5px var(--green);
+}
+
+@media (min-width: 1190px) {
+  .cereal-packs,
+  .cereal-bars {
+    padding: 0 150px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .cereal-packs,
+  .cereal-bars {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .beaver-cereal-products {
+    padding-top: 4rem;
+  }
+
+  .beaver-cereal-products:first-child {
+    padding-top: 0;
+  }
+
+  .beaver-cereal-products .product-description .price {
+    padding-bottom: 4rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+  }
+
+  .beaver-cereal-products:last-child .price {
+    border: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .beaver-cereal-products .cereal-pack-product,
+  .beaver-cereal-products .cereal-bar-product {
+    width: 13rem;
+  }
+}
+
+@media (max-width: 441px) {
+  .beaver-cereal-products .cereal-pack-product,
+  .beaver-cereal-products .cereal-bar-product {
+    width: 12rem;
+  }
+}
+
+/* Product: Cereal bar */
+
+.beaver-cereal-products .cereal-bar-product {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
