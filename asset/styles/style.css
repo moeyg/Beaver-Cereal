@@ -1,5 +1,20 @@
-/* Components */
+/* components */
 @import url('./components/nav.css');
+@import url('./components/carousel.css');
+
+/* variables */
+@import url('./variables.css');
+
+/* fonts */
+@import url('./fonts.css');
+
+/* pages */
+@import url('./pages/shop.css');
+
+body {
+  font-family: 'impact';
+  background-color: var(--beige);
+}
 
 .container-fluid {
   padding: 0;
